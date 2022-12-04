@@ -1,0 +1,11 @@
+{
+  "itemGroup.pathways.pathways" : "非凡途径",
+
+  "item.pathways.characteristic": "非凡特性",
+  "item.pathways.contaminate_true.tooltip": "被污染",
+  "item.pathways.contaminate_false.tooltip": "未污染",
+  "effect.pathways.whisper_effect": "呓语",
+  "effect.pathways.crazy_effect": "疯狂"
+
+
+}

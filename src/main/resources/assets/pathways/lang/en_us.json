@@ -1,0 +1,10 @@
+{
+  "itemGroup.pathways.pathways" : "pathways",
+  "item.pathways.characteristic": "characteristic",
+
+  "item.pathways.contaminate_true.tooltip": "Contaminated",
+  "item.pathways.contaminate_false.tooltip": "Uncontaminated",
+  "effect.pathways.whisper_effect": "whisper",
+  "effect.pathways.crazy_effect": "crazy"
+
+}
