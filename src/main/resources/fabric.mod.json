@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "pathways",
+  "version": "0.0.1",
+
+  "name": "Pathways",
+  "description": "此mod相关设定来自爱潜水的乌贼的《诡秘之主》（还是建议大家看一下吧）",
+  "authors": [
+    "Matrix"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.matrix.pathways.Pathways"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
