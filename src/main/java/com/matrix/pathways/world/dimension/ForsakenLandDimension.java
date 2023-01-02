@@ -7,8 +7,17 @@ import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.World;
 import net.minecraft.world.dimension.DimensionType;
+import net.minecraft.world.dimension.DimensionOptions;
 
 public class ForsakenLandDimension {
-    public static final RegistryKey<World> FORSAKEN_LAND_DIMENSION_KEY = RegistryKey.of(Registry.WORLD_KEY, new Identifier(Pathways.MOD_ID, "forsaken_fand_dimension"));
-    public static final RegistryKey<DimensionType> FORSAKEN_LAND_DIMENSION_TYPE = RegistryKey.of(Registry.DIMENSION_TYPE_KEY, FORSAKEN_LAND_DIMENSION_KEY.getValue());
+    public static RegistryKey<World> FORSAKEN_LAND_DIMENSION_KEY;
+    public static RegistryKey<DimensionType> FORSAKEN_LAND_DIMENSION_TYPE;
+
+    public static void register(){
+        FORSAKEN_LAND_DIMENSION_KEY = RegistryKey.of(Registry.WORLD_KEY, new Identifier(Pathways.MOD_ID, "forsaken_land_dimension"));
+        FORSAKEN_LAND_DIMENSION_TYPE = RegistryKey.of(Registry.DIMENSION_TYPE_KEY, FORSAKEN_LAND_DIMENSION_KEY.getValue());
+    }
+
+
+
 }

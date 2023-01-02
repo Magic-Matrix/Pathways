@@ -16,8 +16,10 @@ public class ItemRegister {
 
 
     public static final Item CHARACTERISTIC = new Characteristic(ITEM_GROUP);
+    public static final Item CHARACTERISTIC_POTION = new CharacteristicPotion(ITEM_GROUP);
 
     public static void register(){
         Registry.register(Registry.ITEM, new Identifier(Pathways.MOD_ID, "characteristic"), CHARACTERISTIC);
+        Registry.register(Registry.ITEM, new Identifier(Pathways.MOD_ID, "characteristic_potion"), CHARACTERISTIC_POTION);
     }
 }

@@ -3,6 +3,7 @@ package com.matrix.pathways;
 import com.matrix.pathways.commands.CommandRegister;
 import com.matrix.pathways.entity.ModProfession;
 import com.matrix.pathways.items.ItemRegister;
+import com.matrix.pathways.world.dimension.ForsakenLandDimension;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,6 +23,7 @@ public class Pathways implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 //		ModProfession.init();
+		ForsakenLandDimension.register();
 		CommandRegister.register();
 		ItemRegister.register();
 		Trades.init();
